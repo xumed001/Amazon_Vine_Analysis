@@ -18,3 +18,13 @@ This ETL/Analysis was performed on a Video Game Review dataset from Amazon S3. A
 
 ## Summary
 In conclusion, the analysis shows that the probability of positivity bias for reviews in the Vine program is very likely to be true. As the 5 Star review perentage of the paid Vine reviews are significantly higher than the non-Vine reviews. We can also conclude that the pay is definetly a factor that influences how the users review the game as supported by the results. One additional analysis that could support the statement would be to peform this analysis on more than one review sample realated to Vine paid vs non-paid datasets. 
+
+
+## Resources
+- Data Source: https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt
+
+### Software
+- AWS
+- RDS / S3
+- PySpark (Google Colab)
+- pgAdmin (PostgreSQL)
