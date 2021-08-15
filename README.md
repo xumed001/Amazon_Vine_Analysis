@@ -1,7 +1,9 @@
 # Amazon Vine Analysis
+<img src="Resources/money.jpg">
 
-## Overview
-This repo performs Exploratory Data Analysis and ETL Process to extract a dataset from S3, transform the data, connect to an AWS RDS instance, and load the transformed data into pgAdmin. Next, with PySpark analysis is done to determine if there is any bias toward favorable reviews from (Paid) Vine members in the dataset.
+
+## Project Summary
+This repo performs Exploratory Data Analysis and ETL Process to extract a dataset from `S3`, transform the data, connect to an `AWS RDS` instance, and load the transformed data into `pgAdmin`. Next, with `PySpark` analysis is done to determine if there is any bias toward favorable reviews from (Paid) Vine members in the dataset.
 
 ## Results:
 This ETL/Analysis was performed on a Video Game Review dataset from Amazon S3. After extracting the data from S3 and filtering the appropriate columns with desired values the Vine Review Analysis was done.
